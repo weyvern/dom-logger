@@ -1,6 +1,6 @@
 {
   "name": "@weyvern/dom-logger",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Small utility to log to a DOM element, used for education purposes to teach aspiring developers",
   "keywords": [
     "logger",

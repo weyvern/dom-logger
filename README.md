@@ -45,7 +45,7 @@ You can also use the CDN directly within a JS Module
 ```
 
 ```js
-import DOMLogger from 'https://unpkg.com/@weyvern/dom-logger@1.0.1/index.js';
+import DOMLogger from 'https://unpkg.com/@weyvern/dom-logger@1.0.3/index.js';
 
 // a valid HTML element that allows IinnerHTML
 const element = document.getElementById('output');
