@@ -1,0 +1,12 @@
+{
+  "name": "@weyvern/dom-logger",
+  "version": "1.0.0",
+  "description": "Small utility to log to a DOM element, used for education purposes to teach aspiring developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
