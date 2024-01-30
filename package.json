@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "Small utility to log to a DOM element, used for education purposes to teach aspiring developers",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weyvern/dom-logger.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Jorge Paul",
+  "bugs": {
+    "url": "https://github.com/weyvern/dom-logger/issues"
+  },
+  "homepage": "https://github.com/weyvern/dom-logger#readme",
   "license": "ISC"
 }
