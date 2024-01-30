@@ -2,6 +2,14 @@
   "name": "@weyvern/dom-logger",
   "version": "1.0.1",
   "description": "Small utility to log to a DOM element, used for education purposes to teach aspiring developers",
+  "keywords": [
+    "logger",
+    "dom",
+    "console",
+    "javascript",
+    "esm",
+    "education"
+  ],
   "main": "index.js",
   "repository": {
     "type": "git",
