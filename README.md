@@ -23,3 +23,4 @@ logger.info('Hello World!');
 logger.warn('Hello World!');
 logger.error('Hello World!');
 ```
+![Screenshot 2024-01-30 at 18 07 52](https://github.com/weyvern/dom-logger/assets/19370560/fda17ca9-d009-4ac4-8328-33edd4cc54cd)
