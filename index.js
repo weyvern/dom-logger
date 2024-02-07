@@ -1,8 +1,10 @@
 'use strict';
 
 class DOMLogger {
+  #native;
   #output;
-  constructor(element) {
+  constructor(element, nativeConsole = false) {
+    this.#native = nativeConsole;
     this.#output = element;
   }
 
@@ -29,11 +31,13 @@ class DOMLogger {
   }
 
   log(message) {
+    if (this.#native) console.log(message);
     this.#output.innerHTML += `<p> > ${this.serialize(message)}</p>`;
     this.scrollToBottom();
   }
 
   info(message) {
+    if (this.#native) console.info(message);
     this.#output.innerHTML += `<p class="info"> > <span role="img" aria-label="info">ℹ️</span> ${this.serialize(
       message
     )}</p>`;
@@ -41,6 +45,7 @@ class DOMLogger {
   }
 
   error(message) {
+    if (this.#native) console.error(message);
     this.#output.innerHTML += `<p class="error"> > <span role="img" aria-label="error">☠️</span> ${this.serialize(
       message
     )}</p>`;
@@ -48,6 +53,7 @@ class DOMLogger {
   }
 
   warn(message) {
+    if (this.#native) console.warn(message);
     this.#output.innerHTML += `<p class="warn"> > <span role="img" aria-label="warn">⚠️</span>${this.serialize(
       message
     )}</p>`;
