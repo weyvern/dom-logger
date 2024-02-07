@@ -13,10 +13,14 @@ npm i @weyvern/dom-logger
 ```js
 import DOMLogger from '@weyvern/dom-logger';
 
-// a valid HTML element that allows IinnerHTML
+// a valid HTML element that allows InnerHTML
 const element = document.getElementById('output');
-
-const logger = new DOMLogger(element);
+/* 
+instantiate the class passing the HTML element and a second optional boolean 
+parameter, if this  this parameter is set to true, the messages will be logged 
+to the native console as well, it defaults to false.
+*/
+const logger = new DOMLogger(element, true);
 
 logger.log('Hello World!');
 logger.info('Hello World!');
