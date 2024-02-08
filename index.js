@@ -20,7 +20,7 @@ class DOMLogger {
       }
       fileAndLine = new Error().stack.split('/').pop();
     }
-    return `${message} | ${fileAndLine}`;
+    return `${message} | ${fileAndLine.replace(/\..*\./, '.')}`;
   }
 
   scrollToBottom() {
